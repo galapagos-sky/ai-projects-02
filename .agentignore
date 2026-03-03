@@ -1,0 +1,19 @@
+.obsidian/
+.git/
+.venv/
+
+# API キー / 環境変数
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets.json
+credentials.json
+
+# エージェント
+.agent/secrets/
+
+# Python キャッシュ
+__pycache__/
+*.pyc

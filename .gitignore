@@ -1,0 +1,33 @@
+.obsidian/
+.agent/secrets/
+.agent/logs/
+.agent/sessions/
+*.log
+.venv/
+# =====================
+# Claude Code
+# =====================
+.claude/settings.local.json
+.claude/CLAUDE.local.md
+
+# =====================
+# VS Code
+# =====================
+.vscode/settings.json
+
+# =====================
+# API キー / 環境変数
+# =====================
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets.json
+credentials.json
+
+# =====================
+# OS 生成ファイル
+# =====================
+.DS_Store
+Thumbs.db
